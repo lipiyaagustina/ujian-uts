@@ -1,0 +1,119 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* Menambahkan untuk mengatur padding dan border dalam perhitungan ukuran element */
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+} 
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: 30px; 
+    align-items: center; 
+    padding: 20px 0; 
+    position: fixed; 
+    top: 0;
+    background: #ffffff;
+    z-index: 1000; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a { 
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {  
+    text-decoration: underline;
+}
+
+section{
+    margin-top: 100px; 
+    margin-bottom: 50px;
+}
+
+h1, h2, p {
+    font-family: 'comic sans ms';
+    color: black;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: left; 
+    line-height: 50px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left; 
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; 
+}
+
+a.tbl-biru, a.tbl-pink{
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+a.tbl-biru:hover, a.tbl-pink:hover{
+    background: #fc5185;
+    text-decoration: none;
+}
